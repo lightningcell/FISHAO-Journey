@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 24b7bd3153a5548458ab6d0da38d96ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8418792827717123542
+    second: steve_0
+  - first:
+      213: -4378399266540917504
+    second: steve_1
+  - first:
+      213: 6534544993966430789
+    second: steve_2
+  - first:
+      213: -773753001197842956
+    second: steve_3
+  - first:
+      213: -7502134134084295938
+    second: steve_4
+  - first:
+      213: 1993052385095875593
+    second: steve_5
+  - first:
+      213: 6848825833997817783
+    second: steve_6
+  - first:
+      213: -199192446761648620
+    second: steve_7
+  - first:
+      213: 818425067654061713
+    second: steve_8
+  - first:
+      213: 2969330532154348961
+    second: steve_9
+  - first:
+      213: -4359563211734303826
+    second: steve_10
+  - first:
+      213: 823767975744945245
+    second: steve_11
+  - first:
+      213: 1224624264642443220
+    second: steve_12
+  - first:
+      213: 5676157228857930941
+    second: steve_13
+  - first:
+      213: 8907756296083971208
+    second: steve_14
+  - first:
+      213: -1845175831986647766
+    second: steve_15
+  - first:
+      213: 1254317953203073057
+    second: steve_16
+  - first:
+      213: -7152842041104285413
+    second: steve_17
+  - first:
+      213: 2559905356225702606
+    second: steve_18
+  - first:
+      213: 8551280506091671841
+    second: steve_19
+  - first:
+      213: -126303017344743700
+    second: steve_20
+  - first:
+      213: -6419320833955049593
+    second: steve_21
+  - first:
+      213: 7632024967435684527
+    second: steve_22
+  - first:
+      213: -6035723481987877001
+    second: steve_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steve_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd7fadd87f85d470800000000000000
+      internalID: 8418792827717123542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 159
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d6ff8901dcc33c0800000000000000
+      internalID: -4378399266540917504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 160
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a1d2eec0e5faa50800000000000000
+      internalID: 6534544993966430789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 159
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdc5b3beb31345f0800000000000000
+      internalID: -773753001197842956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 159
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2a298c0c013e790800000000000000
+      internalID: -7502134134084295938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 159
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c7268a59eb8ab10800000000000000
+      internalID: 1993052385095875593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 160
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b755f33fcaeb0f50800000000000000
+      internalID: 6848825833997817783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 159
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41eb4d866835c3df0800000000000000
+      internalID: -199192446761648620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e9bc84341ab5b00800000000000000
+      internalID: 818425067654061713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a518c5036e253920800000000000000
+      internalID: 2969330532154348961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab37bc5b58bf73c0800000000000000
+      internalID: -4359563211734303826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 79
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cbe930c9c9e6b00800000000000000
+      internalID: 823767975744945245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 78
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d73655c74dbef010800000000000000
+      internalID: 1224624264642443220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 78
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4b7531de2c5ce40800000000000000
+      internalID: 5676157228857930941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 81
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c95dde725be9b70800000000000000
+      internalID: 8907756296083971208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 80
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dcc426b5e9466e0800000000000000
+      internalID: -1845175831986647766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1207014688b386110800000000000000
+      internalID: 1254317953203073057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11cf7d9f000cbc90800000000000000
+      internalID: -7152842041104285413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecae378cb5c968320800000000000000
+      internalID: 2559905356225702606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121115c40504ca670800000000000000
+      internalID: 8551280506091671841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce64b1d23184f3ef0800000000000000
+      internalID: -126303017344743700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f48d866bdf9e6a0800000000000000
+      internalID: -6419320833955049593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa8aec85466ae960800000000000000
+      internalID: 7632024967435684527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steve_23
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777f0a5c87dcc3ca0800000000000000
+      internalID: -6035723481987877001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      steve_0: 8418792827717123542
+      steve_1: -4378399266540917504
+      steve_10: -4359563211734303826
+      steve_11: 823767975744945245
+      steve_12: 1224624264642443220
+      steve_13: 5676157228857930941
+      steve_14: 8907756296083971208
+      steve_15: -1845175831986647766
+      steve_16: 1254317953203073057
+      steve_17: -7152842041104285413
+      steve_18: 2559905356225702606
+      steve_19: 8551280506091671841
+      steve_2: 6534544993966430789
+      steve_20: -126303017344743700
+      steve_21: -6419320833955049593
+      steve_22: 7632024967435684527
+      steve_23: -6035723481987877001
+      steve_3: -773753001197842956
+      steve_4: -7502134134084295938
+      steve_5: 1993052385095875593
+      steve_6: 6848825833997817783
+      steve_7: -199192446761648620
+      steve_8: 818425067654061713
+      steve_9: 2969330532154348961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
