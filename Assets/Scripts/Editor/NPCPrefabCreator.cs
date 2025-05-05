@@ -38,7 +38,7 @@ public class NPCPrefabCreator : EditorWindow
         string sheetPrefix = Path.GetFileNameWithoutExtension(assetPath);
         TextureImporter ti = AssetImporter.GetAtPath(assetPath) as TextureImporter;
         // Klasör yapısını oluştur
-        string baseFolder = "Assets/NPC";
+        string baseFolder = "Assets/NPC/Characters";
         if (!AssetDatabase.IsValidFolder(baseFolder))
             AssetDatabase.CreateFolder("Assets", "NPC");
         string npcFolder = $"{baseFolder}/{npcName}";
@@ -196,6 +196,7 @@ public class NPCPrefabCreator : EditorWindow
         GameObject go = new GameObject(npcName);
         var sr = go.AddComponent<SpriteRenderer>();
         sr.sprite = sprites[0];
+        sr.sortingLayerName = "Custom Layering";
         var anim = go.AddComponent<Animator>();
         anim.runtimeAnimatorController = controller;
         // Add BaseNPCController for static facing
@@ -203,11 +204,38 @@ public class NPCPrefabCreator : EditorWindow
         // Add trigger collider
         var col = go.AddComponent<CapsuleCollider2D>();
         col.isTrigger = true;
+        // Add sorting order controller for Y-based layering
+        var sortingComp = go.AddComponent<SortingOrderByY>();
+        sortingComp.isStatic = isStatic;
         // Add movement script for dynamic NPCs
         if (!isStatic)
         {
             var npcMv = go.AddComponent<NPCMovement>();
         }
+        // Add cursor handler for hover pointer
+        var cursorHandler = go.AddComponent<NPCCursorHandler>();
+        // Add cursor sprite
+        var cursorPath = "Assets/UI/Cursor/pointer.png";
+        var cursorTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(cursorPath);
+        cursorHandler.pointerCursor = cursorTexture;
+
+        // Add NPCArrow child indicator (inactive by default)
+        var arrowGuids = AssetDatabase.FindAssets("NPCArrow t:Prefab");
+        if (arrowGuids.Length > 0)
+        {
+            string arrowPath = AssetDatabase.GUIDToAssetPath(arrowGuids[0]);
+            var arrowPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(arrowPath);
+            if (arrowPrefab != null)
+            {
+                var arrowInst = PrefabUtility.InstantiatePrefab(arrowPrefab) as GameObject;
+                arrowInst.transform.SetParent(go.transform);
+                arrowInst.transform.localPosition = new Vector3(0f, 0.8f, 0f);
+                arrowInst.name = "NPCArrow";
+                arrowInst.SetActive(false);
+            }
+        }
+        // Add arrow controller to the NPC prefab
+        go.AddComponent<NPCArrowController>();
         string prefabPath = $"{npcFolder}/{npcName}.prefab";
         PrefabUtility.SaveAsPrefabAsset(go, prefabPath);
         DestroyImmediate(go);
